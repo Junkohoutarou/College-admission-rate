@@ -8,7 +8,7 @@ with open("styles.css") as f:
 st.markdown(f"<style>{custom_css}</style>", unsafe_allow_html=True)
 st.title('USA college admission rate prediction')
 
-image = Image.open('college.jpg.webp')
+image = Image.open('college.jpg')
 st.image(image)
 
 input = open('lr_admit.pkl', 'rb')
