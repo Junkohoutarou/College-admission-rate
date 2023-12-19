@@ -26,6 +26,6 @@ h3 {
 }
 
 img {
-    max-width: 80%px; 
-    height: 300px;   
+    max-width: 100%px; 
+    height: auto;   
 }
